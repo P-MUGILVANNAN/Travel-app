@@ -1,0 +1,85 @@
+.nature-gateway-section {
+    background-color: #2C2C2C; /* Dark background */
+    color: #E0E0E0; /* Light text */
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: white; /* Highlight color for nature */
+    margin-bottom: 20px;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background-color: #3C3C3C; /* Slightly lighter gray */
+    color: #E0E0E0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature h3 {
+    color: white; /* Highlighted headings */
+    margin-bottom: 10px;
+  }
+  
+  .feature:hover {
+    background-color: #4C4C4C; /* Lighter on hover */
+  }
+  .carousel {
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #3C3C3C; /* Dark card background */
+    color: #E0E0E0; /* Light text color */
+    border-radius: 10px; /* Rounded corners for cards */
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px; /* Rounded corners for top */
+    border-top-right-radius: 10px; /* Rounded corners for top */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #4C4C4C; /* Custom color for navigation icons */
+    border-radius: 50%; /* Round icons */
+  }
+  .heading-box {
+    border: 2px solid #FEB47B; /* Highlight color */
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block; /* Center the box */
+    margin-bottom: 20px; /* Space below the heading box */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 0; /* Remove default margin */
+  }
+  .card-img-top {
+    width: 100%; /* Ensures the image takes the full width */
+    height: 300px; /* Set a fixed height for uniformity */
+    display: block; /* Ensures there's no extra space below the image */
+}

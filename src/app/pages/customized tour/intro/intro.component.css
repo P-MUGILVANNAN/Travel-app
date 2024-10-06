@@ -1,0 +1,57 @@
+/* Intro Section Styling */
+.custom-tour-intro {
+    background-color: #1f1f1f; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .intro-heading {
+    font-size: 2.5rem;
+    color: #ffffff; /* White heading */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: #cccccc; /* Light gray text */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px auto; /* Center aligned */
+  }
+  
+  /* Benefits Section */
+  .benefits {
+    display: flex;
+    flex-wrap: wrap; /* Responsive layout */
+    justify-content: center;
+    gap: 40px; /* Space between benefits */
+  }
+  
+  .benefit {
+    background-color: #2c2c2c; /* Dark card background */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .benefit h3 {
+    font-size: 1.5rem;
+    color: #f1a64d; /* Soft orange for heading */
+    margin-bottom: 10px;
+  }
+  
+  .benefit p {
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Benefit Card Hover Effect */
+  .benefit:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    background-color: #333333; /* Lighter background on hover */
+  }
+  

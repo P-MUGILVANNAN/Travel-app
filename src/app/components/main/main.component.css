@@ -1,0 +1,114 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1B1B1B; /* Very dark gray/black */
+    color: #E0E0E0; /* Light gray */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h1 {
+    color: #FFFFFF; /* White */
+    margin-bottom: 20px;
+}
+
+.text-center p {
+    color: #E0E0E0; /* Light gray */
+    margin-bottom: 40px;
+}
+
+/* Card Styling */
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C2C; /* Dark gray */
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+/* Card image styling */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    transition: opacity 0.3s ease; /* Smooth transition for image opacity */
+}
+
+.card:hover .card-img-top {
+    opacity: 0.8; /* Slight fade effect on hover */
+}
+
+/* Card body styling */
+.card-body {
+    padding: 20px;
+    flex: 1; /* Allow body to expand */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: background-color 0.3s ease; /* Smooth transition for card body background */
+}
+
+.card:hover .card-body {
+    background-color: #3C3C3C; /* Slightly lighter gray on hover */
+}
+
+.card-title {
+    color: #FFFFFF; /* White */
+    margin-bottom: 15px;
+    transition: color 0.3s ease; /* Smooth transition for title color */
+}
+
+.card:hover .card-title {
+    color: #E0E0E0; /* Light gray on hover */
+}
+
+.card-text {
+    color: #E0E0E0; /* Light gray */
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.card:hover .card-text {
+    color: #FFFFFF; /* White on hover */
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #404040; /* Dark gray */
+    border: none;
+    color: #E0E0E0; /* Light gray */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: auto; /* Keep button at the bottom */
+    transition: background-color 0.3s ease; /* Smooth transition for button background */
+}
+
+.btn-primary:hover {
+    background-color: #3C3C3C; /* Medium gray */
+}
+
+/* Ensure that cards within the row have the same height */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}

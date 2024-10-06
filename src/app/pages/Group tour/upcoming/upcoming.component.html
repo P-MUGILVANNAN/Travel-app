@@ -1,0 +1,29 @@
+<div class="up">
+  <!-- In-house Destinations Section -->
+  <h2>In-house Destinations (India)</h2>
+  <div class="tour-grid">
+    <div class="tour-card" *ngFor="let tour of inhouseTours">
+      <img [src]="tour.thumbnail" alt="{{ tour.name }} Thumbnail" />
+      <h2>{{ tour.name }}</h2>
+      <p><strong>Date:</strong> {{ tour.startDate }} - {{ tour.endDate }}</p>
+      <p><strong>Location:</strong> {{ tour.location }}</p>
+      <p><strong>Availability:</strong> {{ tour.availability }}</p>
+      <button>Form Below</button>
+    </div>
+  </div>
+
+  <!-- International Destinations Section -->
+  <h2>International Destinations</h2>
+  <div class="tour-grid">
+    <div class="tour-card" *ngFor="let tour of internationalTours">
+      <img [src]="tour.thumbnail" alt="{{ tour.name }} Thumbnail" />
+      <h2>{{ tour.name }}</h2>
+      <p><strong>Date:</strong> {{ tour.startDate }} - {{ tour.endDate }}</p>
+      <p><strong>Location:</strong> {{ tour.location }}</p>
+      <p><strong>Availability:</strong> {{ tour.availability }}</p>
+      <button>Form Below</button>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,17 @@
+.foot{
+    background-color: #1B1B1B; /* Very dark gray/black */
+    color: #E0E0E0; /* Light gray */
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #2C2C2C; /* Dark gray */
+    color: #E0E0E0; /* Light gray */
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footer p {
+    margin: 0;
+}

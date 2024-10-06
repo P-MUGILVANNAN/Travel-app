@@ -1,0 +1,43 @@
+<div class="Fo">
+  <br />
+  <div class="custom-tour-form">
+    <h3 class="form-heading">Custom Tour Query Form</h3>
+    <form #tourForm="ngForm" (ngSubmit)="onSubmit()">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="fullName" [(ngModel)]="formData.fullName" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="formData.email" required />
+
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" name="destination" [(ngModel)]="formData.destination" required />
+
+      <label for="startDate">Start Date:</label>
+      <input type="date" id="startDate" name="startDate" [(ngModel)]="formData.startDate" required />
+
+      <label for="endDate">End Date:</label>
+      <input type="date" id="endDate" name="endDate" [(ngModel)]="formData.endDate" required />
+
+      <label for="activities">Activities:</label>
+      <input type="text" id="activities" name="activities" [(ngModel)]="formData.activities" required />
+
+      <label for="budget">Budget:</label>
+      <input type="text" id="budget" name="budget" [(ngModel)]="formData.budget" required />
+
+      <label for="groupSize">Group Size:</label>
+      <input type="number" id="groupSize" name="groupSize" [(ngModel)]="formData.groupSize" required />
+
+      <label for="specialRequests">Special Requests:</label>
+      <input type="text" id="specialRequests" name="specialRequests" [(ngModel)]="formData.specialRequests" />
+      <br /><br />
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <br />
+
+    <!-- Display submission message -->
+    <div *ngIf="submissionMessage" class="submission-message">
+      {{ submissionMessage }}
+    </div>
+  </div>
+</div>

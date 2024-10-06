@@ -1,0 +1,88 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #2C2C2C;
+    transition: background-color 0.3s ease;
+    position: fixed;   
+    top: 0;
+    width: 100%;
+    z-index: 1000;    
+}
+
+/* Ensure all text in the navbar is white */
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Hover effect for navbar links */
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fcb054 !important; 
+    transform: translateY(-2px); 
+}
+
+/* Hover effect for the brand logo */
+.navbar-brand {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #fcb054 !important; 
+    transform: rotate(-2deg) scale(1.05); 
+}
+
+/* Active link styling - Transparent box */
+.active-link {
+    font-weight: bold;
+    color: #fcb054 !important;
+    background-color: rgba(232, 212, 161, 0.297); 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+/* Toggler for mobile (Move it to the right and change color) */
+.navbar-toggler {
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: white;
+    margin-left: auto;  
+}
+
+/* Change navbar-toggler-icon color to white */
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+/* Hover effect for the navbar-toggler */
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.1); 
+}
+
+/* Button Styling */
+button#signup {
+    margin-left: 10px;
+    background-color: #FF8C00;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the Sign In button */
+button#signup:hover {
+    background-color: #fcb054; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Add padding to body to avoid overlap with fixed navbar */
+body {
+    padding-top: 70px;
+}
+
+/* Adjust spacing between navbar items */
+.navbar-nav .nav-item {
+    margin: 0 15px; 
+}

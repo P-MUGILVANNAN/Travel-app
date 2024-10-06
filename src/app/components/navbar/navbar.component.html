@@ -1,0 +1,33 @@
+<br>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid d-flex justify-content-between">
+    <!-- Brand aligned to the left -->
+    <a class="navbar-brand" href="#">TripSync</a>
+
+    <!-- Toggler for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar items centered -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/destination" routerLinkActive="active-link">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/custom" routerLinkActive="active-link">Customised Tour</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/group" routerLinkActive="active-link">Group Tour</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Sign-in button aligned to the right -->
+    <button id="signup" class="btn">Sign In</button>
+  </div>
+</nav>

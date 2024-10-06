@@ -1,0 +1,109 @@
+.abo{
+    background-color: #1B1B1B; /* Very dark gray/black */
+    color: #E0E0E0; /* Light gray */
+    font-family: Arial, sans-serif;
+}
+/* Hero Section */
+.hero {
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #FFFFFF; /* White text */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #E0E0E0; /* Light text color */
+    padding: 60px 0;
+}
+
+.why-choose-us h2 {
+    margin-bottom: 40px;
+}
+
+.feature {
+    background-color: #3C3C3C; /* Slightly lighter gray */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.feature:hover {
+    background-color: #4C4C4C; /* Even lighter gray on hover */
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 0;
+    background-color: #1B1B1B;
+    color: #E0E0E0; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+.testimonials .carousel-inner {
+    text-align: center; /* Center text in carousel */
+}
+
+.testimonials .testimonial {
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #E0E0E0; /* Light text color */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto; /* Center the testimonial block */
+    display: inline-block; /* Align the block inside the carousel */
+    max-width: 600px; /* Optional: limit width for readability */
+}
+
+.testimonials .carousel-control-prev,
+.testimonials .carousel-control-next {
+    color: #E0E0E0; /* Light gray for control buttons */
+    filter: invert(1); /* White icons on dark background */
+}
+
+.testimonials .carousel-control-prev:hover,
+.testimonials .carousel-control-next:hover {
+    color: #FFFFFF; /* White on hover */
+    filter: invert(0.8); /* Slightly less white on hover */
+}
+
+/* Contact Form Section */
+.contact {
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #E0E0E0; /* Light text color */
+    padding: 60px 0;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+}
+
+.contact .form-control {
+    background-color: #3C3C3C; /* Slightly lighter gray */
+    border: none;
+    color: #E0E0E0; /* Light text color */
+}
+
+.contact .btn-primary {
+    background-color: #404040; /* Dark gray */
+    border: none;
+}
+
+.contact .btn-primary:hover {
+    background-color: #3C3C3C; /* Medium gray */
+}

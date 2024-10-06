@@ -1,0 +1,20 @@
+
+    <!-- Home Page Content -->
+    <div class="container my-5">
+        <h1 class="text-center">{{ title }}</h1>
+        <p class="lead text-center">{{ subtitle }}</p>
+      
+        <div class="row text-center mt-4">
+          <div class="col-md-4" *ngFor="let card of cards">
+            <div class="card">
+              <img [src]="card.img" class="card-img-top" [alt]="card.alt">
+              <div class="card-body">
+                <h5 class="card-title">{{ card.title }}</h5>
+                <p class="card-text">{{ card.text }}</p>
+                <a class="btn btn-primary" routerLink="/custom" >{{ card.btnText }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
